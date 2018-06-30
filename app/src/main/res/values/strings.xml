@@ -1,0 +1,95 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz!</string>
+
+    <string name="quiz_header">Quiz!</string>
+    <string name="welcome">Hello there! Please enter your name to start this quiz.</string>
+    <string name="name_hint">Name</string>
+    <string name="next_button">Next</string>
+    <string name="description">Hello %s. We have 10 questions for you to answer. Good Luck.</string>
+    <string name="back">Back</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="index">%d.\u0020</string>
+    <string name="submit">Submit</string>
+    <string name="try_again">Try Again</string>
+
+    <!--For Score Screen-->
+    <string name="name">Hi %s. You got</string>
+    <string name="percentage">%.1f%%</string>
+    <string name="question_count">%.1f of %d questions</string>
+
+    <!--One-->
+    <string name="question_one">Which Android version did Material Design get introduced?</string>
+    <string-array name="question_one_options">
+        <item>Android 4.2.2</item>
+        <item>Android 5.0</item>
+        <item>Android 4.3</item>
+        <item>Android 8.1</item>
+    </string-array>
+
+    <!--Two -> multi-choice-->
+    <string name="question_two">Which Android version doesn\'t implement material design? Select all that apply.</string>
+    <string-array name="question_two_options">
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Gingerbread</item>
+        <item>Oreo</item>
+    </string-array>
+
+    <!--Three -> gets input from user-->
+    <string name="question_three">What does AR stand for?</string>
+    <string name="question_three_answer">Augmented Reality</string>
+
+    <!--Four -> gets input from user-->
+    <string name="question_four">What does VR stand for?</string>
+    <string name="question_four_answer">Virtual Reality</string>
+
+    <!--Five-->
+    <string name="question_five">What other language is supported by android for android development?</string>
+    <string-array name="question_five_options">
+        <item>C++</item>
+        <item>PHP</item>
+        <item>Kotlin</item>
+        <item>None</item>
+    </string-array>
+
+    <!--Six-->
+    <string name="question_six">Is Java an Object Oriented Language or a Procedural language?</string>
+    <string-array name="question_six_options">
+        <item>Object Oriented</item>
+        <item>Procedural</item>
+    </string-array>
+
+    <!--Seven-->
+    <string name="question_seven">What method is called when an application is launched?</string>
+    <string-array name="question_seven_options">
+        <item>onCreate()</item>
+        <item>onClick()</item>
+        <item>setOnClickListener()</item>
+        <item>MainActivity.java</item>
+    </string-array>
+
+    <!--Eight -> gets input from user-->
+    <string name="question_eight">In Android development, what does R stand for?</string>
+    <string name="question_eight_answer">Resource</string>
+
+    <!--Nine-->
+    <string name="question_nine">Which data type can hold decimals?</string>
+    <string-array name="question_nine_options">
+        <item>int</item>
+        <item>String</item>
+        <item>double</item>
+        <item>long</item>
+    </string-array>
+
+    <!--Ten-->
+    <string name="question_ten">The process of adding(+) multiple string together is called?</string>
+    <string-array name="question_ten_options">
+        <item>String addition</item>
+        <item>Joining</item>
+        <item>Concatenation</item>
+        <item>None</item>
+    </string-array>
+
+
+</resources>
+
